@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "pulser.h"
+#include "Pulser.h"
 
 namespace Pulser {
     Pulse::Pulse() {

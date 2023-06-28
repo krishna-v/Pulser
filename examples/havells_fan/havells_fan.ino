@@ -22,7 +22,7 @@
   3H Timer: 0xA235D6C3
   4H Timer: 0xA235D8bA
 ***/
-#include <pulser.h>
+#include <Pulser.h>
 
 const int rfPin = D1;
 const int LED = D0;
