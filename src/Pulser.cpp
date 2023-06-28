@@ -31,8 +31,8 @@ namespace Pulser {
     void Sequence::setBits(const char *bitstring, int length) {
         if(length <= 0) return;
         if(_len > 0) free(_seq);
-        _seq = (char *)malloc(length);
-        memcpy(_seq, bitstring, length+1);
+        _seq = (char *)malloc(length+1);
+        memcpy(_seq, bitstring, length);
         _len = length;
         _seq[_len] = '\0';
     }
